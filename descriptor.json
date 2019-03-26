@@ -1,0 +1,25 @@
+{
+  "name": "currentTimeFn",
+  "type": "flogo:function",
+  "version": "0.0.1",
+  "title": "currentTimeFn",
+  "description": "returns current time",
+  "homepage": "https://github.com/prject-flogo/contrib/tree/master/function/number",
+  "functions": [
+    {
+      "name": "merge",
+      "description": "merge list of maps together",
+      "varArgs": true,
+      "args": [
+        {
+          "name": "maps",
+          "type": "array"
+        },
+        {
+          "name": "mergeKey",
+          "type": "array"
+        }
+      ]
+    }
+  ]
+}
