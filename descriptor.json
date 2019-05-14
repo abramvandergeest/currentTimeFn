@@ -7,7 +7,7 @@
   "homepage": "https://github.com/abramvandergeest/currentTimeFn",
   "functions": [
     {
-      "name": "getUnixTime",
+      "name": "currentTimeUnix",
       "description": "merge list of maps together",
       "varArgs": true,
       "args": []
