@@ -19,7 +19,7 @@ func (fnCurrentTime) Name() string {
 }
 
 func (fnCurrentTime) Sig() (paramTypes []data.Type, isVariadic bool) {
-	return []data.Type{data.TypeInt64}, false
+	return []data.Type{}, false
 }
 
 func (fnCurrentTime) Eval(params ...interface{}) (interface{}, error) {

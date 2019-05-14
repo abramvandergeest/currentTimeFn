@@ -2,24 +2,15 @@
   "name": "currentTimeFn",
   "type": "flogo:function",
   "version": "0.0.1",
-  "title": "currentTimeFn",
+  "title": "Get Current Time",
   "description": "returns current time",
-  "homepage": "https://github.com/prject-flogo/contrib/tree/master/function/number",
+  "homepage": "https://github.com/abramvandergeest/currentTimeFn",
   "functions": [
     {
-      "name": "merge",
+      "name": "getUnixTime",
       "description": "merge list of maps together",
       "varArgs": true,
-      "args": [
-        {
-          "name": "maps",
-          "type": "array"
-        },
-        {
-          "name": "mergeKey",
-          "type": "array"
-        }
-      ]
+      "args": []
     }
   ]
 }
